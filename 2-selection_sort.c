@@ -24,7 +24,7 @@ void swap_selection(int *a, int *b)
  * by the selection sort algorithm
  * @array: the arrau of integers to be sorted
  * @size: the size of the array
- * 
+ *
  * Return: Nothing
 */
 
