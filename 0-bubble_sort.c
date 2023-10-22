@@ -2,14 +2,14 @@
 
 
 /**
- * swap_int - swaps the values of to int variables
+ * swap_bubble - swaps the values of to int variables
  * @a: a pointer to the first int variable
  * @b: a pointer to the second int variable
  *
  * Return: Nothing
 */
 
-void swap_int(int *a, int *b)
+void swap_bubble(int *a, int *b)
 {
 	int temp;
 
@@ -41,7 +41,7 @@ void bubble_sort(int *array, size_t size)
 		{
 			if (array[i] > array[i + 1])
 			{
-				swap_int(array + i, array + i  + 1);
+				swap_bubble(array + i, array + i  + 1);
 				swapped = 1;
 				print_array(array, size);
 			}
