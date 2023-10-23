@@ -46,7 +46,7 @@ int partition(int *array, size_t size, int lo, int hi)
 			}
 		}
 	}
-	if (i + 1 != hi)
+	if (array[i + 1] != array[hi])
 	{
 		swap_quick(array + i + 1, array + hi);
 		print_array(array, size);
